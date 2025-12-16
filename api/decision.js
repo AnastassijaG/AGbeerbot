@@ -7,7 +7,7 @@ export default function handler(req, res) {
       ok: true,
       student_email: "agonts@taltech.ee",
       algorithm_name: "AnastassijasBeerBot",
-      version: "v1.0.1",
+      version: "v1.0.2",
       supports: { blackbox: true, glassbox: true },
       message: "BeerBot ready"
     });
