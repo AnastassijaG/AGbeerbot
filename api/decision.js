@@ -5,7 +5,7 @@ export default function handler(req, res) {
   if (body.handshake === true) {
     return res.status(200).json({
       ok: true,
-      student_email: "agonts",
+      student_email: "agonts@taltech.ee",
       algorithm_name: "AnastassijasBeerBot",
       version: "v1.0.1",
       supports: { blackbox: true, glassbox: true },
