@@ -6,8 +6,8 @@ export default function handler(req, res) {
     return res.status(200).json({
       ok: true,
       student_email: "agonts",
-      algorithm_name: "BullwhipBreakerPlus",
-      version: "v1.0.0",
+      algorithm_name: "AnastassijasBeerBot",
+      version: "v1.0.1",
       supports: { blackbox: true, glassbox: true },
       message: "BeerBot ready"
     });
